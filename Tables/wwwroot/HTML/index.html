@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Homepage</title>
+    <style>
+        .main-table {
+            width: 85%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .main-table th, .main-table td {
+            border: 1px solid #7f7f7f;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .welcome-title {
+            font-weight: bold;
+            font-size: 18px;
+            padding: 40px;
+        }
+        .card {
+            width: 100%;
+            display: inline-block;
+            border: 1px solid #7f7f7f;
+            position: relative;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 14px;
+            background-color: #555555;
+            color: white;
+            padding: 8px 0;
+            font-family: 'Century Gothic', sans-serif;
+            opacity: 0.7;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <table class="main-table">
+        <tr>
+            <td colspan="7" class="welcome-title"></td>
+        </tr>
+        <tr>
+            <td style="width: 25%;"></td>
+            <td style="width: 10%; font-weight: bold;"><a href="#" class="menu-link">LOGO</a></td>
+            <td style="width: 10%;">צור קשר</td>
+            <td style="width: 10%;">תקנון</td>
+            <td style="width: 10%;">אודות</td>
+            <td style="width: 10%;">על הפרויקט</td>
+            <td style="width: 25%;"></td>
+        </tr>
+    </table>
+    <table class="main-table">
+        <tr>
+            <td></td>
+            <td colspan="5" class="welcome-title">Welcome to Homepage</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2" style="width: 25%;">
+                <div class="card">
+                    <img src="../Images/Two kittens.jpg" alt="Two kittens" />
+                    <div class="title">Two kittens</div>
+                </div>
+            </td>
+            <td colspan="3" style="width: 25%;">
+                <div class="card">
+                    <img src="../Images/Two cats cuddling.jpg" alt="Two cats cuddling" />
+                    <div class="title">Two cats cuddling</div>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2">
+                <div class="card">
+                    <img src="../Images/A cat couple.jpg" alt="A cat couple" />
+                    <div class="title">A cat couple</div>
+                </div>
+            </td>
+            <td colspan="3">
+                <div class="card">
+                    <img src="../Images/Several kittens.jpg" alt="Several kittens" />
+                    <div class="title">Several kittens</div>
+                </div>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
